@@ -20,8 +20,8 @@ Deploy: chép cả thư mục lên bất kỳ static hosting nào (GitHub Pages,
 |---|---|
 | `config.js` | Mẫu thiệp, vị trí và kiểu chữ tên khách — đổi thiệp chỉ sửa file này |
 | `app.js` | Vẽ canvas, xem trước, tải / chia sẻ ảnh |
-| `assets/thiep-1.png`, `thiep-2.png` | Ảnh nền xuất từ Canva (1241×1748), để trống chỗ tên |
-| `assets/fonts/Birthstone-Regular.ttf` | Font tên khách (giống bản Canva, có dấu tiếng Việt; giấy phép OFL) |
+| `assets/thiep-1.png`, `thiep-2.png` | Ảnh nền xuất từ Canva (1240×1748), để trống chỗ tên |
+| `assets/fonts/HY-Aaript.otf` | Font tên khách (có dấu tiếng Việt) |
 | `chinese Wedding Invitation.pdf` | Bản thiết kế gốc, trang 3 là ví dụ thành phẩm |
 
 ## Đổi mẫu thiệp
