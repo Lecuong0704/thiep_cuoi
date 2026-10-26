@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tạo thiệp cưới · Nhà trai</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Tạo thiệp mời nhà trai</h1>
+      <p>Nhập tên khách mời, xem trước rồi tải ảnh thiệp.</p>
+    </header>
+
+    <form class="controls" id="form" autocomplete="off">
+      <label for="guest">Tên khách mời</label>
+      <input id="guest" name="guest" type="text" maxlength="60" autofocus>
+      <div class="actions">
+        <button type="submit" class="primary" data-download="all" disabled>Tải ảnh</button>
+      </div>
+      <p class="status" id="status" role="status"></p>
+    </form>
+
+    <section class="previews previews--single" id="previews"></section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="../app.js"></script>
+</body>
+</html>

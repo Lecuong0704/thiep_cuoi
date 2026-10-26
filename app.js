@@ -137,7 +137,7 @@
         if (i > 0) await new Promise((r) => setTimeout(r, 400));
         saveFile(files[i]);
       }
-      setStatus(files.length > 1 ? 'Đã tải 2 ảnh.' : 'Đã tải ảnh.');
+      setStatus(files.length > 1 ? `Đã tải ${files.length} ảnh.` : 'Đã tải ảnh.');
     } catch (err) {
       setStatus(err.message, true);
     } finally {
@@ -166,7 +166,7 @@
   buttons.forEach((b) => {
     if (b.type !== 'submit') b.addEventListener('click', () => download(b.dataset.download));
   });
-  // Enter trong ô nhập = tải cả 2 ảnh.
+  // Enter trong ô nhập = tải tất cả ảnh.
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     download('all');
