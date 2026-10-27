@@ -4,7 +4,7 @@ window.THIEP_CONFIG = {
   // Kiểu chữ tên khách mời, giống trang nhà gái
   nameStyle: {
     fontFamily: 'Birthstone',
-    fontUrl: '../assets/fonts/Birthstone-Regular.ttf',
+    fontUrl: '../assets/fonts/HY-Aaript.otf',
     fontSize: 72,        // cỡ chữ mặc định
     minFontSize: 40,     // tên dài sẽ co dần nhưng không nhỏ hơn mức này
     color: '#870808',    // trùng màu đỏ tiêu đề trên thiệp
